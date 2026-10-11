@@ -15,3 +15,8 @@
  **/
 
 var g = 10; // cmd + /, ctr + /
+
+let x=true;
+console.log(typeof x);
+
+
