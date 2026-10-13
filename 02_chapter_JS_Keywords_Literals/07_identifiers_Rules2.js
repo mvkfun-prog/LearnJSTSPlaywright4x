@@ -32,3 +32,23 @@ let strName = "string prefix";
 let bActive = true;       // boolean
 let nCount = 5;           // number
 let arrItems = [];        // array
+
+// with var - prints 3, 3, 3
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 10);
+}
+
+// with let - prints 0, 1, 2
+for (let j = 0; j < 3; j++) {
+  setTimeout(() => console.log(j), 10);
+}
+
+let a=1;
+//let a=2; //Sybtax error a has already been declared
+
+const obj = {n: 1};
+console.log("Value of n from obj: " + obj.n);
+obj.n = 2; //you can update the value
+console.log("Value of n from obj: " + obj.n);
+//obj = {n: 3}; //but you cannot assign a new value directly for a const
+
