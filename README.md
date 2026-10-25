@@ -18,7 +18,7 @@ Practice code and notes from learning JavaScript, TypeScript and Playwright for 
 | [09_chapter_Loops](09_chapter_Loops/) | `for` loop | Why loops beat repeated code, `for` loop syntax, and interview questions |
 | [10_chapter_Loops_While](10_chapter_Loops_While/) | `while` loop | `while` loops, interview questions, and leaving a loop early with `break` |
 | [11_chapter_Loops_DoWhile](11_chapter_Loops_DoWhile/) | `do...while` and nested loops | `do...while`, nested `for` loops, and interview questions |
-| [12_chapter_Arrays](12_chapter_Arrays/) | Arrays | Creating arrays (`[]`, `new Array`, `Array.of`), reading with indexes and `at()`, adding and removing (`push`, `pop`, `shift`), searching (`indexOf`, `includes`, `find`), looping (`for`, `for...of`), and transforming with `map` and `filter` |
+| [12_chapter_Arrays](12_chapter_Arrays/) | Arrays | Creating arrays (`[]`, `new Array`, `Array.of`), reading with indexes and `at()`, adding and removing (`push`, `pop`, `shift`), searching (`indexOf`, `includes`, `find`), looping (`for`, `for...of`), transforming (`map`, `filter`, `every`, `some`), sorting, `slice`, joining (`concat`, spread `...`), `Array.isArray`, copying, destructuring, and swapping values. Notes: [why `sort()` uses dictionary order](12_chapter_Arrays/91_Lexicographic_Explain.md) and [how `slice()` handles negative indexes](12_chapter_Arrays/93_Slice_Explain.md) |
 
 Files named `*_IQ.js` are interview-question exercises.
 
