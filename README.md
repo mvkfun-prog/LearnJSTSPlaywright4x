@@ -19,6 +19,8 @@ Practice code and notes from learning JavaScript, TypeScript and Playwright for 
 | [10_chapter_Loops_While](10_chapter_Loops_While/) | `while` loop | `while` loops, interview questions, and leaving a loop early with `break` |
 | [11_chapter_Loops_DoWhile](11_chapter_Loops_DoWhile/) | `do...while` and nested loops | `do...while`, nested `for` loops, and interview questions |
 | [12_chapter_Arrays](12_chapter_Arrays/) | Arrays | Creating arrays (`[]`, `new Array`, `Array.of`), reading with indexes and `at()`, adding and removing (`push`, `pop`, `shift`), searching (`indexOf`, `includes`, `find`), looping (`for`, `for...of`), transforming (`map`, `filter`, `every`, `some`), sorting, `slice`, joining (`concat`, spread `...`), `Array.isArray`, copying, destructuring, and swapping values. Notes: [why `sort()` uses dictionary order](12_chapter_Arrays/91_Lexicographic_Explain.md) and [how `slice()` handles negative indexes](12_chapter_Arrays/93_Slice_Explain.md) |
+| [13_chapter_Functions](13_chapter_Functions/) | Functions | Defining and calling functions, the four types (with or without parameters and a return value), template literals, function expressions, arrow functions, IIFEs, spreading an array into arguments, and `return` |
+| [14_chapter_Var_Let_Const_Hoisting_TDZ](14_chapter_Var_Let_Const_Hoisting_TDZ/) | `var`, `let` and `const` | How the three differ, function scope vs block scope, global vs local variables, and why `const` can't be reassigned |
 
 Files named `*_IQ.js` are interview-question exercises.
 
