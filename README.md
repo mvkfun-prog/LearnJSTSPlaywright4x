@@ -20,13 +20,17 @@ Practice code and notes from learning JavaScript, TypeScript and Playwright for 
 | [11_chapter_Loops_DoWhile](11_chapter_Loops_DoWhile/) | `do...while` and nested loops | `do...while`, nested `for` loops, and interview questions |
 | [12_chapter_Arrays](12_chapter_Arrays/) | Arrays | Creating arrays (`[]`, `new Array`, `Array.of`), reading with indexes and `at()`, adding and removing (`push`, `pop`, `shift`), searching (`indexOf`, `includes`, `find`), looping (`for`, `for...of`), transforming (`map`, `filter`, `every`, `some`), sorting, `slice`, joining (`concat`, spread `...`), `Array.isArray`, copying, destructuring, and swapping values. Notes: [why `sort()` uses dictionary order](12_chapter_Arrays/91_Lexicographic_Explain.md) and [how `slice()` handles negative indexes](12_chapter_Arrays/93_Slice_Explain.md) |
 | [13_chapter_Functions](13_chapter_Functions/) | Functions | Defining and calling functions, the four types (with or without parameters and a return value), template literals, function expressions, arrow functions, IIFEs, spreading an array into arguments, and `return` |
-| [14_chapter_Var_Let_Const_Hoisting_TDZ](14_chapter_Var_Let_Const_Hoisting_TDZ/) | `var`, `let` and `const` | How the three differ, function scope vs block scope, global vs local variables, and why `const` can't be reassigned |
+| [14_chapter_Var_Let_Const_Hoisting_TDZ](14_chapter_Var_Let_Const_Hoisting_TDZ/) | `var`, `let`, `const`, hoisting and the TDZ | How the three differ, function scope vs block scope, global vs local variables, why `const` can't be reassigned, re-declaring with `var`, hoisting of `var`, `let` and functions, and the temporal dead zone (TDZ), including how `typeof` behaves in it |
+| [15_chapter_Functions_Closure](15_chapter_Functions_Closure/) | Closures | An inner function that still remembers its outer function's variables |
+| [16_chapter_String](16_chapter_String/) | Strings | Single, double and template-literal strings, `length` and character access, and searching with `includes` and similar methods |
+| [17_Objects_JS](17_Objects_JS/) | Objects | Creating objects, reading and adding properties, methods and `this`, building a config object, copy by value vs by reference, and shallow vs deep copy |
+| [18_Multi_Dimensional_Array](18_Multi_Dimensional_Array/) | Multi-dimensional arrays and patterns | 2D arrays (grids, a test-results matrix, per-student score totals), and printing star patterns: right triangle, inverted triangle and pyramid |
 
 Files named `*_IQ.js` are interview-question exercises.
 
 ## Visual cheat sheets
 
-One diagram per chapter, stored in [assets/images](assets/images/).
+Diagrams for most chapters, stored in [assets/images](assets/images/).
 
 | Chapter | Diagram |
 |---|---|
@@ -43,6 +47,8 @@ One diagram per chapter, stored in [assets/images](assets/images/).
 | 09 `for` loop | ![Anatomy of a for loop: init runs once, the condition is checked before every pass, the update runs after every pass](assets/images/ch09-for-loop-anatomy.png) |
 | 10 `while` loop | ![How a while loop runs: check attempts < 3, run the body, update attempts, repeat; exit when false. No update means it never ends](assets/images/ch10-while-loop.png) |
 | 11 `do...while` | ![while vs do...while with a = 10: while checks first and runs 0 times; do...while runs first and runs once](assets/images/ch11-while-vs-do-while.png) |
+| 14 Hoisting and TDZ | ![Hoisting and TDZ cheat sheet: declarations are hoisted, var starts as undefined, let and const stay in the temporal dead zone until declared, function declarations are fully hoisted, with a var/let/const comparison table and interview questions](assets/images/Hoising&TDZ_Cheatsheet.jpeg) |
+| 15 Closures | ![Closures cheat sheet: an inner function keeps access to its outer function's variables after the outer function finishes, with counter and private bank-balance examples, closure vs scope, and interview questions](<assets/images/JavaScript Closures Cheat Sheet Infographic.png>) |
 
 ## Running the examples
 
