@@ -25,15 +25,27 @@ Practice code and notes from learning JavaScript, TypeScript and Playwright for 
 | [16_chapter_String](16_chapter_String/) | Strings | Single, double and template-literal strings, `length` and character access, and searching with `includes` and similar methods |
 | [17_Objects_JS](17_Objects_JS/) | Objects | Creating objects, reading and adding properties, methods and `this`, building a config object, copy by value vs by reference, and shallow vs deep copy |
 | [18_Multi_Dimensional_Array](18_Multi_Dimensional_Array/) | Multi-dimensional arrays and patterns | 2D arrays (grids, a test-results matrix, per-student score totals), and printing star patterns: right triangle, inverted triangle and pyramid |
-| [19_Callback](19_Callback/) | Callbacks | Passing a function as an argument (named, anonymous and arrow), synchronous callbacks with `forEach`, asynchronous callbacks with `setTimeout`, callbacks that return a value, and callback hell (the "pyramid of doom") in an E2E login flow and an API chain. Notes: [callbacks, promises and async/await cheat sheet](19_Callback/callbacks-and-promises.md) |
+| [19_Callback](19_Callback/) | Callbacks | Passing a function as an argument (named, anonymous and arrow), synchronous callbacks with `forEach`, asynchronous callbacks with `setTimeout`, callbacks that return a value, and callback hell (the "pyramid of doom") in an E2E login flow and an API chain. See the [callbacks, promises and async/await notes](00_learning/callbacks-and-promises.md) |
 | [20_Promise](20_Promise/) | Promises | Creating a promise with `resolve` and `reject`, `.then`, `.catch` and `.finally`, chaining promises to flatten callback hell, `Promise.all`, `Promise.allSettled`, `Promise.race`, and interview questions |
-| [21_Async_Await](21_Async_Await/) | `async` / `await` | An `async` function always returns a promise, and `await` reads its resolved value |
+| [21_Async_Await](21_Async_Await/) | `async` / `await` | Async functions and promises, `try` / `catch` / `finally`, sequential vs. parallel work, API examples, Playwright examples, and interview questions |
 
 Files named `*_IQ.js` are interview-question exercises.
 
+## Supplemental learning notes
+
+The [00_learning](00_learning/) folder contains reference notes alongside the chapter exercises:
+
+| Resource | Topic |
+|---|---|
+| [callbacks-and-promises.md](00_learning/callbacks-and-promises.md) | Callbacks, promises, `async` / `await`, and common mistakes |
+| [playwright_page_methods_await.md](00_learning/playwright_page_methods_await.md) | Awaiting Playwright page methods |
+| [chatAt_vs_At_string.md](00_learning/chatAt_vs_At_string.md) | `charAt()` vs. `at()` (including the `chatAt` typo) |
+| [rarely_needed_string_methods.md](00_learning/rarely_needed_string_methods.md) | Less common JavaScript string methods |
+| [object_reference_copy_eli5.html](00_learning/object_reference_copy_eli5.html) | Object references and copying |
+
 ## Visual cheat sheets
 
-Diagrams for most chapters, stored in [assets/images](assets/images/) or in the chapter's own folder.
+Diagrams for most chapters, stored in [assets/images](assets/images/), the [supplemental learning notes](00_learning/), or in the chapter's own folder.
 
 | Chapter | Diagram |
 |---|---|
@@ -52,9 +64,9 @@ Diagrams for most chapters, stored in [assets/images](assets/images/) or in the 
 | 11 `do...while` | ![while vs do...while with a = 10: while checks first and runs 0 times; do...while runs first and runs once](assets/images/ch11-while-vs-do-while.png) |
 | 14 Hoisting and TDZ | ![Hoisting and TDZ cheat sheet: declarations are hoisted, var starts as undefined, let and const stay in the temporal dead zone until declared, function declarations are fully hoisted, with a var/let/const comparison table and interview questions](assets/images/Hoising&TDZ_Cheatsheet.jpeg) |
 | 15 Closures | ![Closures cheat sheet: an inner function keeps access to its outer function's variables after the outer function finishes, with counter and private bank-balance examples, closure vs scope, and interview questions](<assets/images/JavaScript Closures Cheat Sheet Infographic.png>) |
-| 19 Callbacks | ![Callback vs promise comparison](<19_Callback/callback vs promise.png>) |
-| 19 Callbacks | ![JavaScript callbacks and promises cheat sheet](19_Callback/js-callbacks-promises-cheatsheet.png) |
-| 20 Promises | ![Callback vs promise comparison](<20_Promise/Callback vs Promise.png>) |
+| 19 Callbacks | ![Callback vs promise comparison](<00_learning/callback_vs_promise.png>) |
+| 19 Callbacks | ![JavaScript callbacks and promises cheat sheet](00_learning/js-callbacks-promises-cheatsheet.png) |
+| 20 Promises | ![Callback vs promise comparison](<00_learning/Callback vs Promise.png>) |
 
 ## Running the examples
 
