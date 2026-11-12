@@ -28,6 +28,9 @@ Practice code and notes from learning JavaScript, TypeScript and Playwright for 
 | [19_Callback](19_Callback/) | Callbacks | Passing a function as an argument (named, anonymous and arrow), synchronous callbacks with `forEach`, asynchronous callbacks with `setTimeout`, callbacks that return a value, and callback hell (the "pyramid of doom") in an E2E login flow and an API chain. See the [callbacks, promises and async/await notes](00_learning/callbacks-and-promises.md) |
 | [20_Promise](20_Promise/) | Promises | Creating a promise with `resolve` and `reject`, `.then`, `.catch` and `.finally`, chaining promises to flatten callback hell, `Promise.all`, `Promise.allSettled`, `Promise.race`, and interview questions |
 | [21_Async_Await](21_Async_Await/) | `async` / `await` | Async functions and promises, `try` / `catch` / `finally`, sequential vs. parallel work, API examples, Playwright examples, and interview questions |
+| [22_Export_Import](22_Export_Import/) | ES modules | Named and default exports, importing helpers, and using aliases |
+| [23_Class_Objects](23_Class_Objects/) | Classes and objects | Class properties, private fields, methods, and creating instances |
+| [24_Playwright](24_Playwright/) | Playwright testing | A Playwright Test starter project with a shared configuration, example tests, and GitHub Actions workflow |
 
 Files named `*_IQ.js` are interview-question exercises.
 
@@ -42,6 +45,7 @@ The [00_learning](00_learning/) folder contains reference notes alongside the ch
 | [chatAt_vs_At_string.md](00_learning/chatAt_vs_At_string.md) | `charAt()` vs. `at()` (including the `chatAt` typo) |
 | [rarely_needed_string_methods.md](00_learning/rarely_needed_string_methods.md) | Less common JavaScript string methods |
 | [object_reference_copy_eli5.html](00_learning/object_reference_copy_eli5.html) | Object references and copying |
+| [Default vs Named Exports.pdf](<00_learning/Default vs Named Exports.pdf>) | Default and named ES module exports |
 
 ## Visual cheat sheets
 
@@ -85,5 +89,18 @@ The files in `08_chapter_User_Input` wait for you to type something, so run them
 - `62_FS_readFile.js` reads until the input ends. After typing, press Enter, then end the input: **Ctrl + Z** then Enter on Windows, or **Ctrl + D** on macOS and Linux.
 
 If a program gets stuck, press **Ctrl + C** in the terminal, or **Ctrl + Alt + M** for Code Runner.
+
+### Running the Playwright tests
+
+The Playwright project has its own dependencies and configuration. From the repository root:
+
+```bash
+cd 24_Playwright
+npm ci
+npx playwright install
+npx playwright test
+```
+
+The sample tests run in Chromium, Firefox, and WebKit. The GitHub Actions workflow installs the browsers and runs the same test suite on pushes and pull requests to `main` or `master`.
 
 The Selenium framework is a separate Java project with its own [README](00_chapter_Prompt_Eng/Selenium_Framework/README.md).
