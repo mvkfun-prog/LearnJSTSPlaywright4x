@@ -31,6 +31,9 @@ Practice code and notes from learning JavaScript, TypeScript and Playwright for 
 | [22_Export_Import](22_Export_Import/) | ES modules | Named and default exports, importing helpers, and using aliases |
 | [23_Class_Objects](23_Class_Objects/) | Classes and objects | Class properties, private fields, methods, and creating instances |
 | [24_Playwright](24_Playwright/) | Playwright testing | A Playwright Test starter project with a shared configuration, example tests, and GitHub Actions workflow |
+| [25_Class_Object_Constructor](25_Class_Object_Constructor/) | Class constructors and features | Creating objects with constructors, public and private fields, static members, and class-based test cases |
+| [26_OOPs_Encapsulation](26_OOPs_Encapsulation/) | Encapsulation | Hiding object state with private fields and controlling access through methods |
+| [27_OOPs_Inheritance](27_OOPs_Inheritance/) | Single inheritance | Extending a base class and inheriting methods, with practical examples and interview questions |
 
 Files named `*_IQ.js` are interview-question exercises.
 
