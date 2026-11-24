@@ -38,6 +38,7 @@ Practice code and notes from learning JavaScript, TypeScript and Playwright for 
 | [29_IQ](29_IQ/) | OOP interview questions | Practice examples for object-oriented programming concepts |
 | [30_TypeScript](30_TypeScript/) | TypeScript basics | A first typed TypeScript example and generated JavaScript |
 | [31_TypeScript](31_TypeScript/) | TypeScript fundamentals | Variable types and typed function examples |
+| [32_Abstraction_OOPs](32_Abstraction_OOPs/) | TypeScript interfaces and enums | Interfaces for objects, API responses, functions, and test hooks; readonly properties; implementing interfaces in classes; and enums for environments and browsers |
 
 Files named `*_IQ.js` are interview-question exercises.
 
